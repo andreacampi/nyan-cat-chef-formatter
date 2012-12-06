@@ -29,6 +29,14 @@ Install the gem:
 
     gem install nyan-cat-chef-formatter
 
+If you are using Omnibus Chef you need to specify the full path to the `gem`
+binary:
+
+    /opt/chef/embedded/bin/gem install nyan-cat-chef-formatter
+
+Or write a cookbook to install it using the `chef_gem` resource, if that's
+how you roll.
+
 Then add the following to your `/etc/chef/client.rb` file:
 
     gem 'nyan-cat-chef-formatter'
