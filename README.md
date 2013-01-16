@@ -55,7 +55,7 @@ For serious Nyan addicts only!
 To enable the Nyan formatter by default, add the following line to
 `/etc/chef/client.rb`:
 
-    formatter :nyan
+    formatter "nyan"
 
 Contributing
 ----------
